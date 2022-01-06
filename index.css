@@ -1,9 +1,51 @@
+@font-face {
+   font-family: gotham_light;
+   src: url(font/Gotham-Font/Gotham-Light.otf);
+}
+
+ @font-face {
+   font-family: gotham_book;
+   src: url(font/Gotham-Font/GothamBook.ttf);
+}
+img{
+   max-width: 100%;
+   display: block;
+}
+
+.rel_x_center{
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.rel_y_center{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+.rel_xy_center{
+   position: absolute;
+   left: 50%;
+   top:50%;
+   transform: translate(-50%,-50%);
+}
+
+.section_common_spacing{
+   padding: 50px 0px;
+}
+
+.container{
+   width: 1200px;
+   margin: 0 auto;
+}
 body{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family: 'Roboto', sans-serif;
-   font-family: 'Roboto Slab', serif;
+   font-family: gotham_light;
+   font-size: 21px;
+   line-height: 1.45;
 }
 header{
    position: fixed;
@@ -11,18 +53,15 @@ header{
    overflow: hidden;
    z-index: 1;
 }
-.navbar{
+.flex{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 0px 50px;
-   background-color: #fff;
-  
 }
-.nav-menu{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+.navbar{
+   padding: 0px 50px;
+   background-color: #ffffff;
+   /* backdrop-filter: blur(45px); */
 }
 .nav-item{
    list-style-type: none;
@@ -38,8 +77,11 @@ header{
    margin-left: 40px;
 }
 .main-banner img{
-   width:100%;
-   height: 100%;
+      width:100%;
+      height: 100%;
+}
+.leg-para{
+   text-align: center;
 }
 
 .flex-wrapper{
@@ -58,9 +100,8 @@ header{
 .flex-item:hover .overlay{
    display: block;
    background-color: #b2d7d159;
-  
-
 }
+
 .flex-item:hover .text{
    top: 250px;
 }
@@ -87,26 +128,26 @@ header{
    padding: 6px 25px;
    border-radius: 25px;
    letter-spacing: 1px;
+}
+.hide{
    opacity: 0;
 }
 .text{
-   position: absolute;
-   top: 50%;
-   left: 32%;
    text-transform: uppercase;
    font-size: 27px;
    color: #fff;
-   transform: translate(-50% -50%);
-   letter-spacing: 1px;
+   /* letter-spacing: 1px; */
+   width: 100%;
+   text-align: center;
 }
 .main-head h1{
    text-align: center;
    font-size: 40px;
    text-transform: uppercase;
-   letter-spacing: 1px;
+   /* letter-spacing: 1px; */
    color: #7cccbf;
-   font-family:'GothamBook';
-   font-weight: 300;
+   font-family: gotham_book;
+   font-weight: 100;
 }
 .legancy-sec{
    background-image: url("/images/legancy.jpg");
@@ -116,8 +157,8 @@ header{
   
 }
 .legancy-con .main-head{
-   margin: 4%;
-   padding: 12%;
+   /* margin: 4%;
+   padding: 12%; */
 }
 
 .main-head p{
@@ -143,9 +184,116 @@ h1.value-h {
    color: #f00;
 }
 .value_para {
-    padding: 0px 161px;
-    width: 50%;
+   
+    width: 100%;
 }
 .slick-slider{
    margin-bottom: 100px;
 }
+.insp{
+   background-image: linear-gradient(to right, #ffffff, #f4f5f6, #e9ecec, #dfe2e1, #d7d8d5);
+    
+}
+.insp-flex{
+   display: flex;
+   justify-content: center;
+}
+.img-insp{
+   width: 40%;
+   transform: translate(30%,-11%);
+}
+.text-insp{
+   width: 60%;
+}
+.inner-head{
+   color: #f00;
+   border-bottom: 1px;
+   font-weight: 100;
+}
+h1.inner-head {
+   border-bottom: 1px solid #b8e1db;
+   padding-bottom: 2%;
+}
+.main-facility{
+   position: relative;
+}
+.facility{
+   /* padding-top: 12%; */
+  
+}
+.fac-text{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 52%;
+   background-color: #ffffff75;
+   height: 63%;
+   transform: translate(-50%,-50%);
+   backdrop-filter: blur(35px);
+}
+.fac-head{
+   font-size: 35px;
+   font-weight: 100;
+   text-align: center;
+   text-transform: uppercase;
+   margin-top: 10%;
+
+}
+.fac-para{
+   text-align: center;
+   margin: 0px 14%;
+}
+
+.text-sustain{
+   width: 40%;
+}
+.main-head.sustain h1{
+   text-align: justify;
+}
+.sustainable{
+   position: relative;
+}
+.color{
+   position: absolute;
+   background-color: #000;
+   height: 100px;
+   width: 100px;
+  
+}
+.color {
+   position: absolute;
+   background-color: #def2ef;
+   height: 961px;
+   width: 641px;
+   top: -24%;
+   left: 66%;
+   z-index: -1;
+}
+.studio{
+   background-color: #f4f6f6;
+}
+.studio-hed{
+   padding: 10px 37% 10px;
+}
+.studio-hed img{
+   width: 100%
+}
+.studio-text{
+   position: relative;
+}
+.studio-d{
+   position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #ffffff6b;
+    backdrop-filter: blur(35px);
+    /* font-size: 18px; */
+    height: 100%;
+}
+.studio-p{
+   transform: translate(20%,76%);
+   font-size: 18px;
+   width: 74%;
+}
+
+   
