@@ -1,0 +1,65 @@
+@font-face {
+    font-family: gotham_light;
+    src: url(font/Gotham-Font/Gotham-Light.otf);
+ }
+ 
+  @font-face {
+    font-family: gotham_book;
+    src: url(font/Gotham-Font/GothamBook.ttf);
+ }
+
+.main-banner img{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+section{
+    display: block;
+}
+h1,h2,h3{
+    font-family: gotham_book;
+    font-weight: 100;
+}
+p{
+    font-family: gotham_light;
+}
+.fab-main-head{
+position: absolute;
+top: 50%;
+left: 50%;
+font-size: 100px;
+text-transform: uppercase;
+transform: translate(-50%,-50%);
+color: #fff;
+font-weight: 100;
+}
+.fab-text{
+    
+    font-size: 21px;
+    margin: 0 22%;
+    padding-bottom: 10px;
+}
+.inner-head-fab{
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 50px;
+ font-weight: 100;
+ color: #7cccbf;
+}
+.pro-head {
+    font-size: 33px;
+    transform: translate(5%, 69%);
+}
+p.studio-p{
+    transform: translate(6%,4%);
+}
+.head-text{
+text-align: center;
+
+}
+.slider-p{
+    padding-left: 0%;
+}
+.brand{
+    background-color: #f4f6f6;
+}
