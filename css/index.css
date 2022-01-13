@@ -291,7 +291,7 @@ img.map-img {
    transform: translate(12%, 9%);
 }
 .map{
-   background-image: url("/images/map-back.png");
+   background-image: url("/images/map-back.jpg");
    background-size: auto;
    background-repeat: no-repeat;
    height: 1120px;

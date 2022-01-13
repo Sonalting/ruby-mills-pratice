@@ -1,0 +1,33 @@
+@font-face {
+    font-family: gotham_light;
+    src: url(font/Gotham-Font/Gotham-Light.otf);
+ }
+ 
+  @font-face {
+    font-family: gotham_book;
+    src: url(font/Gotham-Font/GothamBook.ttf);
+ }
+.appa{
+    text-align: start;
+    margin: 0 22%;
+}
+.pro-img img{
+    margin: 0 auto;
+}
+.pro-text{
+    font-family: gotham_light;
+    font-size: 17px;
+    text-align: center;
+}
+.proce{
+    margin: 3% 0;
+}
+.range{
+    margin: 3% 0;
+}
+.range:nth-child(even){
+    flex-direction: row-reverse;
+}
+.wear-range {
+    background: #f4f6f6;
+}

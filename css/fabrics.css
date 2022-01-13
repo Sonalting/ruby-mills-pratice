@@ -36,8 +36,12 @@ font-weight: 100;
 .fab-text{
     
     font-size: 21px;
-    margin: 0 22%;
+    margin: 0 20%;
     padding-bottom: 10px;
+   
+}
+.finish{
+    text-align: center;
 }
 .inner-head-fab{
  text-align: center;
@@ -45,6 +49,7 @@ font-weight: 100;
  font-size: 50px;
  font-weight: 100;
  color: #7cccbf;
+ margin: 0;
 }
 .pro-head {
     font-size: 33px;
@@ -54,7 +59,7 @@ p.studio-p{
     transform: translate(6%,4%);
 }
 .head-text{
-text-align: center;
+margin: 0;
 
 }
 .slider-p{
@@ -97,4 +102,22 @@ text-align: center;
     font-family: gotham_light; 
     font-size: 17px;
     font-weight: 100;
+}
+.quality-head{
+    font-family: gotham_book;
+    font-size: 33px;
+    font-weight: 100;
+    margin: 0;
+}
+.quality-img{
+    width: 40%;
+}
+.quality-text{
+    width: 40%;
+}
+.quality{
+    margin: 5% 0;
+}
+.quality:nth-child(even){
+    flex-direction: row-reverse;
 }
