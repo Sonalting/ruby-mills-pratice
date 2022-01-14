@@ -44,14 +44,14 @@ body{
    padding: 0;
    box-sizing: border-box;
    font-family: gotham_light;
-   font-size: 21px;
+   font-size: 17px;
    line-height: 1.45;
 }
 header{
    position: fixed;
    width: 100%;
    overflow: hidden;
-   z-index: 1;
+   z-index: 1000;
 }
 .flex{
    display: flex;
