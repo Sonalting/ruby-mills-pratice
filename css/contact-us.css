@@ -45,7 +45,7 @@ form {
   .inputGroup6 {
       grid-column: 1;
       grid-row: 4;
-      border-bottom: 2px solid #f4f6f6;
+      /* border-bottom: 2px solid #f4f6f6; */
   }
   .inputGroup7 {
       grid-column: 2;
@@ -123,7 +123,63 @@ button {
       transform: rotate(45deg);
   }
 
-
+  .con-li {
+    list-style-type: none;
+    display: flex;
+    padding: 5px 0;
+}
+.con-ul{
+    padding: 0;
+}
+.address {
+    margin-left: 18px;
+}
+span {
+    font-weight: 600;
+}
+.address p{
+    margin: 0;
+}
+.para p{
+    margin: 0;
+    margin-left: 18px;
+}
+.phone a {
+        color: #000;
+        text-decoration: none;
+        font-size: 18px;
+     }
+.direction a {
+    color: #f50000;
+    text-decoration: none;
+    font-size: 22px;
+}
+.social_icon{
+    display: flex;
+}
+ .soc-icon {
+    background-color: #7cccbf;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    display: inline-block;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 7px;
+    border-radius: 100%;
+ }
+ .con-map{
+     background-color: #7cccbf;
+     height: 350px;
+    
+ }
+ .map-img {
+    transform: translateY(-31%);
+}
+.form-sec{
+    padding-bottom: 270px;
+}
 @media screen and (max-width: 480px) {
     form {
       display: flex !important;
